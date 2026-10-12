@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build and Production Artifacts
+dist/
+build/
+coverage/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# SQLite Databases & Litestream State
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/*.db*
+data/*.json
+
+# Logs, PIDs and Temporary Streams
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# OS and Binary Sidecars
+.DS_Store
+Thumbs.db
+bin/*.exe
+bin/*.bin
+bin/cloudflared*
+bin/tailscale*
+
+# Editor & System
+.idea/
+.vscode/
+*.swp
+*.swo

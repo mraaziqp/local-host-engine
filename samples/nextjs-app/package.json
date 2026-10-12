@@ -1,0 +1,10 @@
+{
+  "name": "sample-nextjs-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Next.js build complete'"
+  },
+  "dependencies": {}
+}
